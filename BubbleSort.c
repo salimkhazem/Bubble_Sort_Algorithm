@@ -4,9 +4,12 @@
 
 
 void BubbleSort(int *array, int N ); // Definition of the Prototype of Bubble Sort function
+
+
 /*In the main function 
  I tested the algorithms with an array of 10 elements 
  */
+
 int main () {
 
 int N =10;  
