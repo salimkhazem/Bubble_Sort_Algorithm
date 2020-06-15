@@ -3,7 +3,10 @@
 #include <stdbool.h> 
 
 
-void BubbleSort(int *array, int N ); // Definition of the Prototype of Bubble Sort function 
+void BubbleSort(int *array, int N ); // Definition of the Prototype of Bubble Sort function
+/*In the main function 
+ I tested the algorithms with an array of 10 elements 
+ */
 int main () {
 
 int N =10;  
@@ -26,6 +29,7 @@ printf("\n");
     return 0 ; 
 }
 
+// A function to implement bubble sort 
 void BubbleSort(int *array,int N) {
     int pass=0; 
     bool permutation = true ; 
